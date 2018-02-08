@@ -1,0 +1,37 @@
+c:\users\dgusevx\documents\visual studio 2015\Projects\DWYMplayer\DWYMplayer\bin\Debug\DWYMplayer.exe.config
+c:\users\dgusevx\documents\visual studio 2015\Projects\DWYMplayer\DWYMplayer\bin\Debug\DWYMplayer.exe
+c:\users\dgusevx\documents\visual studio 2015\Projects\DWYMplayer\DWYMplayer\bin\Debug\DWYMplayer.pdb
+c:\users\dgusevx\documents\visual studio 2015\Projects\DWYMplayer\DWYMplayer\obj\Debug\DWYMplayer.csprojResolveAssemblyReference.cache
+c:\users\dgusevx\documents\visual studio 2015\Projects\DWYMplayer\DWYMplayer\obj\Debug\DWYMplayer.Properties.Resources.resources
+c:\users\dgusevx\documents\visual studio 2015\Projects\DWYMplayer\DWYMplayer\obj\Debug\DWYMplayer.csproj.GenerateResource.Cache
+c:\users\dgusevx\documents\visual studio 2015\Projects\DWYMplayer\DWYMplayer\obj\Debug\DWYMplayer.exe
+c:\users\dgusevx\documents\visual studio 2015\Projects\DWYMplayer\DWYMplayer\obj\Debug\DWYMplayer.pdb
+c:\users\dgusevx\documents\visual studio 2015\Projects\DWYMplayer\DWYMplayer\obj\Debug\DWYMplayer.Form1.resources
+C:\Users\danny\Documents\DWYMplayer\DWYMplayer\DWYMplayer\bin\Debug\DWYMplayer.exe.config
+C:\Users\danny\Documents\DWYMplayer\DWYMplayer\DWYMplayer\obj\Debug\DWYMplayer.exe
+C:\Users\danny\Documents\DWYMplayer\DWYMplayer\DWYMplayer\obj\Debug\DWYMplayer.pdb
+C:\Users\danny\Documents\DWYMplayer\DWYMplayer\DWYMplayer\bin\Debug\DWYMplayer.exe
+C:\Users\danny\Documents\DWYMplayer\DWYMplayer\DWYMplayer\bin\Debug\DWYMplayer.pdb
+C:\Users\danny\Documents\DWYMplayer\DWYMplayer\DWYMplayer\obj\Debug\DWYMplayer.csprojResolveAssemblyReference.cache
+C:\Users\danny\Documents\DWYMplayer\DWYMplayer\DWYMplayer\obj\Debug\DWYMplayer.Form1.resources
+C:\Users\danny\Documents\DWYMplayer\DWYMplayer\DWYMplayer\obj\Debug\DWYMplayer.Properties.Resources.resources
+C:\Users\danny\Documents\DWYMplayer\DWYMplayer\DWYMplayer\obj\Debug\DWYMplayer.csproj.GenerateResource.Cache
+C:\Users\danny\Documents\DWYMplayer\DWYMplayer\DWYMplayer\bin\Debug\Interop.WMPLib.dll
+C:\Users\danny\Documents\DWYMplayer\DWYMplayer\DWYMplayer\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\danny\Documents\DWYMplayer\DWYMplayer\DWYMplayer\obj\Debug\Interop.WMPLib.dll
+C:\Users\danny\Documents\DWYMplayer\DWYMplayer\DWYMplayer\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\danny\Documents\DWYMplayer\DWYMplayer\DWYMplayer\obj\Debug\DWYMplayer.csproj.ResolveComReference.cache
+C:\Users\dgusevx\Downloads\DWYMplayer-20180208T134953Z-001\DWYMplayer\DWYMplayer\bin\Debug\DWYMplayer.exe.config
+C:\Users\dgusevx\Downloads\DWYMplayer-20180208T134953Z-001\DWYMplayer\DWYMplayer\obj\Debug\Interop.WMPLib.dll
+C:\Users\dgusevx\Downloads\DWYMplayer-20180208T134953Z-001\DWYMplayer\DWYMplayer\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\dgusevx\Downloads\DWYMplayer-20180208T134953Z-001\DWYMplayer\DWYMplayer\obj\Debug\DWYMplayer.csproj.ResolveComReference.cache
+C:\Users\dgusevx\Downloads\DWYMplayer-20180208T134953Z-001\DWYMplayer\DWYMplayer\obj\Debug\DWYMplayer.exe
+C:\Users\dgusevx\Downloads\DWYMplayer-20180208T134953Z-001\DWYMplayer\DWYMplayer\obj\Debug\DWYMplayer.pdb
+C:\Users\dgusevx\Downloads\DWYMplayer-20180208T134953Z-001\DWYMplayer\DWYMplayer\bin\Debug\DWYMplayer.exe
+C:\Users\dgusevx\Downloads\DWYMplayer-20180208T134953Z-001\DWYMplayer\DWYMplayer\bin\Debug\DWYMplayer.pdb
+C:\Users\dgusevx\Downloads\DWYMplayer-20180208T134953Z-001\DWYMplayer\DWYMplayer\bin\Debug\Interop.WMPLib.dll
+C:\Users\dgusevx\Downloads\DWYMplayer-20180208T134953Z-001\DWYMplayer\DWYMplayer\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\dgusevx\Downloads\DWYMplayer-20180208T134953Z-001\DWYMplayer\DWYMplayer\obj\Debug\DWYMplayer.csprojResolveAssemblyReference.cache
+C:\Users\dgusevx\Downloads\DWYMplayer-20180208T134953Z-001\DWYMplayer\DWYMplayer\obj\Debug\DWYMplayer.Form1.resources
+C:\Users\dgusevx\Downloads\DWYMplayer-20180208T134953Z-001\DWYMplayer\DWYMplayer\obj\Debug\DWYMplayer.Properties.Resources.resources
+C:\Users\dgusevx\Downloads\DWYMplayer-20180208T134953Z-001\DWYMplayer\DWYMplayer\obj\Debug\DWYMplayer.csproj.GenerateResource.Cache
