@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{79C6A067-4634-40C6-AF61-D5A374D545B3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DWYMplayer</RootNamespace>
+    <AssemblyName>DWYMplayer</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PlayerIcons\001-signs.png" />
+    <Content Include="Resources\001-signs.png" />
+    <Content Include="Resources\001-transport-1.png" />
+    <Content Include="Resources\002-arrows-4.png" />
+    <Content Include="Resources\003-arrows-3.png" />
+    <Content Include="Resources\004-arrows-2.png" />
+    <Content Include="Resources\005-arrows-1.png" />
+    <Content Include="Resources\006-square.png" />
+    <Content Include="Resources\007-arrows.png" />
+    <Content Include="Resources\008-transport.png" />
+    <Content Include="Resources\009-television.png" />
+    <Content Include="Resources\010-play.png" />
+    <Content Include="Resources\011-home.png" />
+    <Content Include="Resources\012-web-page-home.png" />
+    <Content Include="Resources\013-open-folder-outline.png" />
+    <Content Include="Resources\014-open-archive.png" />
+    <Content Include="Resources\015-minimize-1.png" />
+    <Content Include="Resources\016-error.png" />
+    <Content Include="Resources\017-minimize.png" />
+    <Content Include="Resources\018-maximize.png" />
+    <Content Include="Resources\019-close.png" />
+    <Content Include="Resources\Button Add.png" />
+    <Content Include="Resources\Button Cancel.png" />
+    <Content Include="Resources\Button Close.png" />
+    <Content Include="Resources\Button Delete.png" />
+    <Content Include="Resources\Button Fast Forward.png" />
+    <Content Include="Resources\Button First.png" />
+    <Content Include="Resources\Button Help.png" />
+    <Content Include="Resources\Button Info.png" />
+    <Content Include="Resources\Button Last.png" />
+    <Content Include="Resources\Button Next.png" />
+    <Content Include="Resources\Button Pause.png" />
+    <Content Include="Resources\Button Play.png" />
+    <Content Include="Resources\Button Previous.png" />
+    <Content Include="Resources\Button Refresh.png" />
+    <Content Include="Resources\Button Reload.png" />
+    <Content Include="Resources\Button Rewind.png" />
+    <Content Include="Resources\Button Stop.png" />
+    <Content Include="Resources\folder_customer_512.ico" />
+    <Content Include="Resources\folder_documents_512.ico" />
+    <Content Include="Resources\folder_fonts_512.ico" />
+    <Content Include="Resources\folder_images_512.ico" />
+    <Content Include="Resources\folder_invoices_512.ico" />
+    <Content Include="Resources\folder_vectors_512.ico" />
+    <Content Include="Resources\full-screen.png" />
+    <Content Include="Resources\httpzcoolcomcnpicpng3006greenpng_050png.png" />
+    <Content Include="Resources\LOGO.jpg" />
+    <Content Include="Resources\logo1.jpg" />
+    <Content Include="Resources\logo2.jpg" />
+    <Content Include="Resources\logo3.jpg" />
+    <Content Include="Resources\mute.png" />
+    <Content Include="Resources\tv1.png" />
+    <Content Include="Resources\tv2.png" />
+    <Content Include="Resources\tv3.png" />
+    <Content Include="Resources\tv4.png" />
+    <Content Include="Resources\tv5.png" />
+    <Content Include="Resources\Volume.png" />
+    <None Include="PlayerIcons\LOGO.jpg" />
+    <None Include="PlayerIcons\logo1.jpg" />
+    <None Include="PlayerIcons\logo2.jpg" />
+    <None Include="PlayerIcons\tv2.png" />
+    <None Include="PlayerIcons\tv3.png" />
+    <None Include="PlayerIcons\tv4.png" />
+    <None Include="PlayerIcons\tv5.png" />
+    <None Include="PlayerIcons\logo3.jpg" />
+    <None Include="PlayerIcons\Button Rewind.png" />
+    <None Include="PlayerIcons\Button First.png" />
+    <None Include="PlayerIcons\Button Play.png" />
+    <None Include="PlayerIcons\Button Pause.png" />
+    <None Include="PlayerIcons\Button Stop.png" />
+    <None Include="PlayerIcons\Button Last.png" />
+    <None Include="PlayerIcons\Button Add.png" />
+    <None Include="PlayerIcons\Button Close.png" />
+    <None Include="PlayerIcons\Button Delete.png" />
+    <None Include="PlayerIcons\httpzcoolcomcnpicpng3006greenpng_050png.png" />
+    <None Include="PlayerIcons\mute.png" />
+    <None Include="PlayerIcons\Volume.png" />
+    <Content Include="PlayerIcons\Button Cancel.png" />
+    <Content Include="PlayerIcons\Button Fast Forward.png" />
+    <Content Include="PlayerIcons\Button Help.png" />
+    <Content Include="PlayerIcons\Button Info.png" />
+    <Content Include="PlayerIcons\Button Next.png" />
+    <Content Include="PlayerIcons\Button Previous.png" />
+    <Content Include="PlayerIcons\Button Refresh.png" />
+    <Content Include="PlayerIcons\Button Reload.png" />
+    <Content Include="PlayerIcons\folder_customer_512.ico" />
+    <Content Include="PlayerIcons\folder_documents_512.ico" />
+    <Content Include="PlayerIcons\folder_fonts_512.ico" />
+    <Content Include="PlayerIcons\folder_images_512.ico" />
+    <Content Include="PlayerIcons\folder_invoices_512.ico" />
+    <Content Include="PlayerIcons\folder_vectors_512.ico" />
+    <Content Include="PlayerIcons\full-screen.png" />
+    <Content Include="PlayerIcons\tv1.png" />
+    <None Include="PlayerIcons\001-transport-1.png" />
+    <Content Include="PlayerIcons\002-arrows-4.png" />
+    <Content Include="PlayerIcons\003-arrows-3.png" />
+    <Content Include="PlayerIcons\004-arrows-2.png" />
+    <Content Include="PlayerIcons\005-arrows-1.png" />
+    <Content Include="PlayerIcons\006-square.png" />
+    <Content Include="PlayerIcons\007-arrows.png" />
+    <Content Include="PlayerIcons\008-transport.png" />
+    <Content Include="PlayerIcons\009-television.png" />
+    <Content Include="PlayerIcons\010-play.png" />
+    <Content Include="PlayerIcons\011-home.png" />
+    <Content Include="PlayerIcons\012-web-page-home.png" />
+    <Content Include="PlayerIcons\013-open-folder-outline.png" />
+    <Content Include="PlayerIcons\014-open-archive.png" />
+    <Content Include="PlayerIcons\015-minimize-1.png" />
+    <Content Include="PlayerIcons\016-error.png" />
+    <Content Include="PlayerIcons\017-minimize.png" />
+    <Content Include="PlayerIcons\018-maximize.png" />
+    <Content Include="PlayerIcons\019-close.png" />
+    <None Include="PlayerIcons\png\008-transport.png" />
+    <None Include="PlayerIcons\png\015-minimize-1.png" />
+    <None Include="PlayerIcons\png\018-maximize.png" />
+    <None Include="PlayerIcons\png\019-close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
